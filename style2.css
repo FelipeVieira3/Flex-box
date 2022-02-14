@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 body, ul, li, p {
     margin:0px;
@@ -11,9 +12,28 @@ body, ul, li, p {
 a {
     text-decoration:none;
     color:white;
+
 }
 
 a:hover {
+    color:chocolate;
+    font-weight:bolder;
+}
+
+.titulo {
+    height:10em;
+    display:flex;
+    align-items:center;
+}
+
+.titulo p {
+
+    margin: 0;
+    position:relative;
+    top:150%;
+    left:24%;
+    font-family:'Redressed', sans-serif;
+    font-size:100px;
     color:chocolate;
 }
 
@@ -37,4 +57,19 @@ a:hover {
 .menu li > a {
     display: block;
     padding: 10px;
+}
+
+footer {
+    background-color:burlywood;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    text-align: center;
+}
+
+footer:hover {
+    color:chocolate;
+    font-weight:bolder;
 }
