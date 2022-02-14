@@ -42,6 +42,19 @@ a:hover {
     padding: 10px;
 }
 
+.um-titulo{
+    margin: 0 auto;
+}
+
+.conteudo {
+    text-align:center;
+    margin:250px auto 250px auto;
+    font-family: 'Redressed', sans-serif;
+    font-size:5rem;
+    color:chocolate;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.555);
+}
+
 footer {
     background-color:burlywood;
     position: fixed;
