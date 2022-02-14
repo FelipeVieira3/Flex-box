@@ -20,23 +20,6 @@ a:hover {
     font-weight:bolder;
 }
 
-.titulo {
-    height:10em;
-    display:flex;
-    align-items:center;
-}
-
-.titulo p {
-
-    margin: 0;
-    position:relative;
-    top:150%;
-    left:24%;
-    font-family:'Redressed', sans-serif;
-    font-size:100px;
-    color:chocolate;
-}
-
 .cabecalho {
     background-color:burlywood;
     flex-wrap:wrap;
