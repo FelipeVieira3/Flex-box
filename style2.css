@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body, ul, li, p {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    font-size:1.0rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+    color:chocolate;
+}
+
+.cabecalho {
+    background-color:burlywood;
+    flex-wrap:wrap;
+    display:flex; /*itens ao lado*/
+    justify-content:space-between;
+    padding:20px;
+    align-items:center;
+}
+
+.menu {
+    display:flex;
+}
+
+.menu li {
+    margin-left:20px;
+}
+
+.menu li > a {
+    display: block;
+    padding: 10px;
+}
